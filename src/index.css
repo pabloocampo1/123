@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Nunito', sans-serif;
+}
+
+body {
+    background-image: linear-gradient(40deg, #d2a0fd 0, #b387eb 25%, #8f6cd8 50%, #6853c5 75%, #3c3fb5 100%);
+    background-color: rgb(255, 255, 255);
+    color: white;
+    font-size: 1.6rem;
+    font-family: 'Nunito', sans-serif;
+}
+
+.containerApp {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icon-relleno img {
+    width: 300px;
+    margin-top: 20px;
+}
+
+@media (min-width:1800px) {
+    .icon-relleno img {
+        width: 500px;
+    }
+}

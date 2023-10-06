@@ -1,0 +1,127 @@
+.container-clima{
+    width: 320px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(160deg, #f7e9ff 0, #cbc3ff 25%, #949dfa 50%, #437bec 75%, #0060df 100%);
+    border-radius: 20px;
+}
+.container-clima_form{
+    margin-top: 20px;
+    border-radius: 10px;
+    width: 250px;
+    height: 35px;
+    overflow: hidden;
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+.container-clima_form input{
+   width: 200px;
+   height: 100%;
+   border: none;
+   outline: none;
+   padding-left: 10px;
+   letter-spacing: 1px;
+   font-size: 15px;
+}
+.container-clima_form button{
+    width: 50px;
+   height: 100%;
+   border: none;
+   background-color: rgb(255, 254, 254);
+}
+.container-clima_description{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+.container-clima_description h2{
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+.container-clima_description img{
+    width: 150px;
+}
+.container-clima_description p{
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+.container-clima_dates{
+    margin-top: 20px;
+    width: 90%;
+    height: 300px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1px 1px 12px rgb(126, 126, 126);
+    color: #040404;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+.container-clima_dates b{
+    font-size: 2rem;
+}
+.container-clima_dates p{
+    font-size: 1.6rem;
+    font-weight: 500;
+   color: #0060df;
+}
+@media (min-width:990px) {
+    .container-clima{
+        width: 380px;
+    }
+    
+     
+}
+
+@media (min-width:1800px) {
+    .container-clima{
+        width: 520px;
+        height: 940px;
+    }
+    .container-clima_form input{
+        width: 320px;
+        height: 100%;
+        font-size: 2.5rem;
+     }
+    .container-clima_form {
+        width: 400px;
+        height: 50px;
+     }
+     .container-clima_form button{
+         width: 70px;
+        height: 100%;
+        border: none;
+        background-color: rgb(255, 254, 254);
+     }
+     .container-clima_description{
+         width: 100%;
+         height: 900px;
+     }
+     .container-clima_description h2{
+         font-size: 5.5rem;
+     }
+     .container-clima_description img{
+         width: 250px;
+     }
+     .container-clima_description p{
+         font-size: 5.5rem;
+     }
+     .container-clima_dates{
+         width: 90%;
+         height: 400px;
+     }
+     .container-clima_dates b{
+         font-size: 2.5rem;
+     }
+     .container-clima_dates p{
+         font-size: 2rem;
+         font-weight: 500;
+        color: #0060df;
+     }
+     
+}
